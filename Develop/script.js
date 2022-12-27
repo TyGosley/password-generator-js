@@ -9,13 +9,44 @@ var specialChar = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "?", "<", ">", "
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+// function writePassword() {
+//   var password = generatePassword();
+//   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+//   passwordText.value = password;
 
+// }
+
+// Prompt length of password between 8 and 128: yes or no
+function writePassword(){
+   passwordLength = prompt("How many characters would you like in your password?");
+
+if (passwordLength < 8 || passwordLength > 128) {
+  alert("Please choose between 8 and 128 characters.");
+  passwordLength = prompt("How many characters would you like in your password?");
 }
+};
+
+writePassword();
+passwordLength = parseInt(passwordLength);
+
+// confirm prompt
+
+// Prompt would you like lowerChar: yes or no
+
+// confirm prompt
+
+// Prompt would you like upperChar: yes or no
+
+// confirm prompt
+
+// Prompt would you like numbers: yes or no
+
+// confirm prompt
+
+// Prompt would you like specialChar: yes or no
+
+// confirm prompt
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
