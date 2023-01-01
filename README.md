@@ -54,7 +54,7 @@ This challenge took me more time than it probably should have.  I am learning a 
 
 ## Usage
 
-To navigate to this page, please [CLICK HERE]().  To use the Chrome DevTools, simply "right click" and use the inspect function or use keyboard shortcuts by press Command+Option+I (macOS) or Control+Shift+I (Windows).
+To navigate to this page, please [CLICK HERE](https://tygosley.github.io/password-generator-js/).  To use the Chrome DevTools, simply "right click" and use the inspect function or use keyboard shortcuts by press Command+Option+I (macOS) or Control+Shift+I (Windows).
   
 ## Screenshot
 
